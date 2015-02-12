@@ -44,14 +44,6 @@ void QuadNode::add(Shape &shape)
       }
    }
 
-//void QuadNode::delShape(Shape &shape)
-//   {
-//   QuadNode *qNode = find(shape);
-//   if
-//         //
-//   }
-
-
 QuadNode *QuadNode::find(Shape &shape)
    {
    if (shapeList.contains(&shape))
